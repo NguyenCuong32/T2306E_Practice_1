@@ -1,0 +1,59 @@
+.h1
+{
+    color: red;
+    font-size: 3pc;
+    text-align: center;
+}
+
+.h2
+{
+    color: black;
+    font-size: 2pc;
+    text-align: center;
+}
+
+.p
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25;
+}
+
+.body
+{
+    background-color: aquamarine;
+}
+
+.h4
+{
+    font-size: 1.5pc;
+    color: green;
+}
+
+.h5
+{
+    font-size: 1pc;
+    color: green;
+}
+
+.h6
+{
+    font-size: 0.75pc;
+    color: green;
+}
+
+.p1
+{
+    font-size: 2pc;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#content
+{
+    font-size: medium;
+    color: orange;
+}
+
+h6:hover{color: yellow;}
+h1:active{color: yellow; font-size: small;}

@@ -1,0 +1,51 @@
+.h
+{
+    color: black;
+    font-size: 1.5pc;
+    text-align: center;
+}
+
+.p1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+    text-decoration: underline;
+    font-size: 1.25pc;
+    padding: 0 0 0 1pc;
+    color: blue;
+    word-spacing: normal;
+}
+
+.p2
+{
+    /* padding: 0 0 0 2pc; */
+    margin: 1pc;
+}
+.b
+{
+    border: 0.5pc;
+    border-style: solid;
+    box-sizing: initial;
+    width: fit-content;
+    height: fit-content;
+}
+
+.magna
+{
+    margin: 10pc;
+    border: 0.5pc;
+    border: solid;
+    border-color: red;
+    width: fit-content;
+    height: fit-content;
+    background-color: yellow;
+}
+
+.duck
+{
+    margin: 0 0 0 2pc;
+}
+.p2:hover{
+    color: red;
+    
+}
