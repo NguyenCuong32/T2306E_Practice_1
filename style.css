@@ -1,0 +1,163 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    
+}
+
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav li{  
+    display: inline-block;
+    position: relative; 
+}
+#nav li:hover .subnav{
+    display:block ;
+}
+/* #nav>li>a : a la con truc tiep cua li , li la con truc tiep cua nav */
+#nav>li>a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav> li:hover >a ,
+#nav .subnav li:hover a{
+    color:black;
+    background-color: #ccc;
+}
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+}
+#nav .nav-icon-down{
+    font-size: 12px;
+}
+#nav .subnav li{
+    width: 100%;
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+    
+}
+#header .search-bt{
+    float: right;
+    padding: 0 22px;
+    cursor: pointer;
+}
+#header .search-bt:hover{
+    background-color: #f44336;
+}
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/img/chicago.jpg') top center / 100% no-repeat;
+}
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    text-align: center;
+    
+    /* cach 2 :width:100%; */
+    /* cach 3: right:0; left:0; */
+}
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+
+}
+#slider .text-sub{
+    font-size: 15px;
+    margin-top: 25px;
+}
+/* conten */
+#conten{
+
+}
+#conten .conten-section{
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conten .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin: 25px 0;
+    opacity: 0.6;
+}
+#conten .section-heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+#conten .about-text{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#conten .member-list{
+    margin-top: 48px;
+    overflow:hidden;
+}
+#conten .band-member{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+#conten .member-name{
+    font-size: 15px;
+   
+    line-height: 1.5;
+    margin: 15px 0;
+}
+#conten .member-img{
+    width: 154px;
+    border-radius: 4px;
+}
+
+
+#footer{
+    
+
+}
