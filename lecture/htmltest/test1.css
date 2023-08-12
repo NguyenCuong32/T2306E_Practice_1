@@ -1,0 +1,32 @@
+.body
+{
+    margin-bottom: 1pc;
+}
+
+.p
+{
+    font-size: 1pc;
+}
+
+.CSSbold
+{
+    font-size: 1.5pc;
+}
+
+.header
+{
+    margin-bottom: 1pc;
+
+}
+
+.footer
+{
+    font-size: 0.75pc;
+    font-style: italic;
+}
+
+.unline
+{
+    text-decoration: none;
+    text-decoration: red;
+}
