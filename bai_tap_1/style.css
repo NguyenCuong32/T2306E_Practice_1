@@ -1,0 +1,197 @@
+#top{
+}
+.wc{
+    float: right;
+    font-style: italic;
+}
+.dau{
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+.fpt{
+    padding: 7px;
+}
+.f{
+    margin: 7px;
+}
+
+#head{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.trang_chu{
+    margin: 2px;
+    text-decoration: none;
+    background-color: brown;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 9px 0px #0f0e0e88;
+}
+.trang_chu:hover{
+    background-color:rgb(130, 57, 57) ;
+}
+.mon_hoc{
+    margin: 2px;
+    text-decoration: none;
+    text-decoration: none;
+    background-color: brown;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 9px 0px #0f0e0e88;
+}
+.mon_hoc:hover{
+    background-color:rgb(130, 57, 57) ;
+}
+.lich_thi{
+    margin: 2px;
+    text-decoration: none;
+    text-decoration: none;
+    background-color: brown;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 9px 0px #0f0e0e88;
+}
+.lich_thi:hover{
+    background-color:rgb(130, 57, 57) ;
+}
+h3{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+#ngon_ngu_c{
+    display: flex;
+    font-size: 20px;
+
+
+}
+#ngon_ngu_c .list_c{
+    position: relative;
+}
+#ngon_ngu_c .mo_ta_c{
+    /* position: absolute;
+    left: 300px;
+    top: 150px; */
+    margin-left: 100px; 
+    float: right;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#html_css{
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+#html_css .mo_ta_c{
+    /* position: absolute;
+    left: 300px;
+    top: 150px; */
+    margin-left: 100px; 
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#mssql{
+    display: flex;
+    font-size: 20px;
+}
+
+#mssql .mo_ta_c{
+    margin-left: 100px; 
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#footer{
+    font-weight: bold;
+}
+#footer .zalo{
+    float: right;
+}
+#footer .fb{
+    float: right;
+}
+
+/* Lịch thi */
+#content_lich_thi{
+    display: flex;
+    justify-content: center;
+}
+#list_lich_thi {
+    display: inline-block;
+}
+#list_lich_thi .cac_mon_img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#list_lich_thi .cac_mon{
+     /* display: inline-block ; */
+    float: left; 
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.name_mon{
+    text-align: center;
+}
+
+/* index */
+
+#content_human{
+    display: flex;
+    justify-content: center;
+}
+#content_human .human{
+    display: inline-block ;
+}
+.human_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content_human .human_text{
+    text-align: center;
+}
+
+/* loi ich */
+
+#conten_loi_ich{
+
+}
+.loi_ich{
+    margin: 20px;
+}
+.list_text{
+    text-align: center;
+    word-wrap: break-word;
+}
+.loi_ich_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list_5{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
