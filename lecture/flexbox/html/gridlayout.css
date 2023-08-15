@@ -1,0 +1,21 @@
+.grid-container
+{
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.item
+{
+    text-align: center;
+    border: 1px solid;
+    padding: 5px; 
+    font-size: 10px;
+}
+
+.bigitem
+{
+    grid-area: 2 / 1 / span 2 / span 3;
+    /* start row: 2, start collumn: 1, span row = 2 ( chiem 2 hang), span collum = 3 ( chiem 3 cot) */
+}

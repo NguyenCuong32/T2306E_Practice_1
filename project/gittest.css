@@ -1,0 +1,189 @@
+.headerTC
+{
+    font-weight: bold;
+    margin-bottom: 1.5pc;
+    margin-top: 1.5pc;
+}
+
+.headerNAVtrangchu
+{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 1pc;
+    background-color: red;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+
+.headerNAVmonhoc
+{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 1pc;
+    background-color: orange;
+    text-align: center;
+    padding: 12px 5px 12px 5px;
+}
+
+.headerNAVlichthi
+{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 1pc;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+
+.bodyTitleSubject
+{
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+}
+
+.list
+{   
+    display: grid;
+    grid-template-columns: 25pc 25pc;
+    padding-left: 2.5pc;
+}
+
+.pinlist
+{
+    border: 0.2pc;
+    border-style: solid;
+    box-sizing: initial;
+    width: 15pc;
+    height: 3.5pc;
+    text-align: left;
+}
+
+.gridcontainer
+{
+    display: grid;
+    grid-template-columns: 35pc 20pc;
+    padding-top: 2.5pc;
+}
+
+.fbzlcontainer
+{
+    display: flex;
+}
+
+.fbcontainer
+{
+    border: 0.2pc;
+    box-sizing: initial;
+    width: 100px;
+    height: 25px;
+    background-color: green;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.zlcontainer
+{
+    border: 0.2pc;
+    box-sizing: initial;
+    width: 100px;
+    height: 25px;
+    background-color:violet;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+
+.squarelist
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    margin-top: 1.5pc;
+    margin-bottom: 1.5pc;
+
+}
+
+.squarelist1
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    margin-top: 1.5pc;
+    margin-bottom: 1.5pc;
+
+}
+
+.squarelist2
+{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    margin-top: 1.5pc;
+    margin-bottom: 1.5pc;
+}
+
+.squarelistforlichthi
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    margin-top: 1.5pc;
+
+}
+
+.boxgrey
+{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    
+}
+
+.boxviolet
+{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+.boxorange
+{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.textlist
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    margin-top: 1.5pc;
+    margin-bottom: 4.5pc;
+}
+
+.textlist1
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    margin-top: 1.5pc;
+    margin-bottom: 4.5pc;
+}
+
+.textlist3forlichthi
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+
+

@@ -1,0 +1,117 @@
+.h
+{
+    display: flex;
+    background-color: blueviolet;
+}
+
+.box
+{
+    border: 0.2pc;
+    border-style: solid;
+    box-sizing: initial;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    text-align: center;
+    
+}
+
+.flexcontainer2
+{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.flexcontainer3
+{
+    display: list-item;
+    justify-content: left;
+    background-color: grey;
+}
+
+.flexcontainer4
+{
+    display: flex;
+    background-color: green;
+    box-sizing: initial;
+    border-color: yellow;
+    
+}
+
+.boxcontainer1
+{
+    flex-grow: 10;
+    border: 0.2pc;
+    border-style: solid;
+    box-sizing: initial;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    text-align: center;
+    margin: 0.2pc 0.2pc 0.2pc 0.2pc;
+}
+
+.boxcontainer2
+{
+    flex-grow: 20;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    border: 0.2pc;
+    border-style: solid;
+    text-align: center;
+    margin: 0.2pc 0.2pc 0.2pc 0.2pc;
+}
+
+.alphacontainer1
+{
+    display: list-item;
+    background-color: yellow;
+    justify-content: left;
+    padding: 0.2pc 0.2pc 0.2pc 0.2pc;
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.alphabox
+{
+    margin: 0.2pc 0.3pc 0.2pc 0.3pc;
+    padding: 0.2pc 0.2pc 0.2pc 0.2pc;
+    border: 0.1pc;
+    border-style: solid;
+    text-align: center;
+    width: 1pc;
+    height: 1pc;
+}
+
+.alphacontainer2
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: yellow;
+    padding: 0.2pc 0.2pc 0.2pc 0.2pc;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.2pc 0.2pc 0.2pc 0.2pc;
+}
+
+.alphacontainer3
+{
+    justify-content: space-around;
+    display: flex;
+    background-color: yellow;
+    margin: 0.2pc 0.2pc 0.2pc 0.2pc;
+}
+
+.alphacontainer4
+{   
+    display: flex;
+    flex-flow: wrap;
+    background-color: yellow;
+    padding: 0.2pc 0.2pc 0.2pc 0.2pc;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.2pc 0.2pc 0.2pc 0.2pc;
+}
