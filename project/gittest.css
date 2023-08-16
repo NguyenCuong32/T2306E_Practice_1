@@ -1,8 +1,6 @@
 .headerTC
 {
     font-weight: bold;
-    margin-bottom: 1.5pc;
-    margin-top: 1.5pc;
 }
 
 .headerNAVtrangchu
@@ -10,7 +8,7 @@
 
     text-decoration: none;
     color: white;
-    margin-right: 1pc;
+    margin-right: 0.5pc;
     background-color: red;
     text-align: center;
     padding: 10px 5px 10px 5px;
@@ -21,10 +19,10 @@
 
     text-decoration: none;
     color: white;
-    margin-right: 1pc;
+    margin-right: 0.5pc;
     background-color: orange;
     text-align: center;
-    padding: 12px 5px 12px 5px;
+    padding: 10px 15px 10px 5px;
 }
 
 .headerNAVlichthi
@@ -32,10 +30,10 @@
 
     text-decoration: none;
     color: white;
-    margin-right: 1pc;
+    margin-right: 0.5pc;
     background-color: grey;
     text-align: center;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 20px 10px 5px;
 }
 
 .bodyTitleSubject
