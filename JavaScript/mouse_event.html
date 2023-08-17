@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+  <div>
+    <h3>Feedback Form</h3>
+    <label>Name:</label><input type="text" name="TungH"></input><br>
+    <label>Email:</label><input type="text" ></input><br><br>
+    <label>Comment:</label><h style="border: 2px solid black; line-height: 10px; padding: 10px;">Please provide your feedback to me</h><br><br><br>
+  </div>
+  <div>
+    <button onclick="submit()">Submit</button>
+    <button>Reset</button>
+  </div>
+</body>
+
+
+<!--<body>
+    <button onclick="showAlert()">click me</button>
+    <h3 id="demo" onmousedown="mouse_down()">Please change my Color</h3>
+    <input type="text" onfocus="showAlert()"></input>
+    <input type="text" onselect="showAlert()"></input>
+    <h3 onselect="showAlert()">Select me</h3>
+</body>-->
+<script>
+    function submit()
+    {
+        confirm("Are you sure?");
+    }
+    function showAlert()
+    {
+        alert("Focus me!");
+    }
+    function mouse_down()
+    {
+        document.getElementById("demo").innerHTML="The mouse is pressed down"
+    }
+</script>
