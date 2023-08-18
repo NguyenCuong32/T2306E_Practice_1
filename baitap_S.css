@@ -1,0 +1,126 @@
+
+h2
+{
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item1 {
+    background-color: orange;
+    width: 120px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.flex-item2 {
+        margin: 10px;
+       line-height: 45px;
+        font-weight: bold;
+}
+
+.flex-item3 {
+    flex-grow: 15;
+    margin: 10px;
+    text-align: right;
+    font-style: italic;
+    line-height: 45px;
+}
+
+.flex-item4 {
+    background-color: brown;
+    width: 100px;
+    margin: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 8px;
+}
+
+.flex-item5
+{
+    background-color: white;
+    flex-grow: 10;
+    text-align: left;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flex-item6
+{
+    background-color: aquamarine;
+    width: 150px;
+   
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.flex-item7
+{
+    background-color:royalblue;
+    width: 150px;
+    
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: start;
+}
+
+.grid-item1
+{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.grid-item2
+{
+    background-color: #6a424241;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.grid-item3
+{
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container1{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: row;
+}
+.flex-container2{
+    width: 40%;
+    padding: 15px;
+    height: auto;
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: row;
+}
