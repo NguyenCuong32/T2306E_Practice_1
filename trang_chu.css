@@ -1,0 +1,136 @@
+header {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+}
+
+header .header-content-3 {
+    text-align: end;
+}
+
+.header-content-1 {
+    width: 30%;
+    height: 150%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+nav {
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: 10% 10% 80%;
+    justify-content: start;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+
+.nav-content-1 {
+    background-color: brown;
+}
+
+.nav-content-2 {
+    background-color: lightcoral;
+}
+
+.nav-content-3 {
+    background-color: gray;
+}
+
+nav>div {
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.text-1 {
+    text-align: center;
+    color: slateblue;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#A img {
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+#A {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.figcaption-1 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.figcaption-1a {
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.text-2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.B .square {
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.B .circle {
+    background-color: lightpink;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.B {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.rec-1,
+.rec-2,
+.rec-3,
+.rec-4,
+.rec-5 {
+    margin: 90px;
+    text-align: center;
+}
+
+.B p {
+    width: 400px;
+    font-size: 30px;
+}
+footer{
+    margin-top: 10%;
+    display: flex;
+}
+h5{
+    font-size: 20px;
+}
+aside img{
+    width: 100px;
+}
+aside{
+    margin-left: 75%;
+}
