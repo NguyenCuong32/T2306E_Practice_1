@@ -1,5 +1,4 @@
-#top{
-}
+
 .wc{
     float: right;
     font-style: italic;
@@ -15,7 +14,7 @@
 .fpt{
     padding: 7px;
 }
-.f{
+.fap{
     margin: 7px;
 }
 
@@ -83,10 +82,7 @@ h4{
     position: relative;
 }
 #ngon_ngu_c .mo_ta_c{
-    /* position: absolute;
-    left: 300px;
-    top: 150px; */
-    margin-left: 100px; 
+    margin-left: 100px;
     float: right;
     background-color: brown;
     padding: 10px;
@@ -138,17 +134,15 @@ h4{
     justify-content: center;
 }
 #list_lich_thi {
-    display: inline-block;
+    display: flex;
 }
 #list_lich_thi .cac_mon_img{
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 #list_lich_thi .cac_mon{
-     /* display: inline-block ; */
     float: left; 
-    margin-bottom: 20px;
-    margin-left: 50px;
+    width:33.33333% ;
+    margin: 50px;
 }
 
 .name_mon{
@@ -157,27 +151,44 @@ h4{
 
 /* index */
 
+
 #content_human{
     display: flex;
     justify-content: center;
 }
+.list_human{
+    width: 100%;
+    display: flex;
+    
+
+}
 #content_human .human{
-    display: inline-block ;
+    float: left;
+    width: 33.33333%;
+    margin: 32px;
+    box-shadow: 0px 2px 7px 0px #0f0e0e88;
+}
+.a_hm{
+    text-decoration: none;
+}
+.text_hm{
+    padding: 0px 16px;
 }
 .human_img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.human_heading{
+    text-align: center;
+    color: blue;
 }
 #content_human .human_text{
     text-align: center;
+    color: black;
 }
 
 /* loi ich */
 
-#conten_loi_ich{
-
-}
 .loi_ich{
     margin: 20px;
 }
