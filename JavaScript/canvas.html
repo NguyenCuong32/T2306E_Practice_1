@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <canvas id="canvass">
+
+    </canvas>
+    <script>
+        const myCanvas = document.getElementById("canvass");
+        var ctx = myCanvas.getContext("2d");
+        ctx.beginPath();
+        ctx.moveTo(20, 20);
+        ctx.lineTo(20, 100);
+        ctx.lineTo(100, 100);
+        ctx.lineTo(100, 20);
+        ctx.lineTo(20, 20);
+        ctx.strokeStyle = "red";
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(60,60,40,0,2,true);
+        //ctx.arc()
+        ctx.strokeStyle = "blue";
+        ctx.stroke();
+    </script>
+</body>

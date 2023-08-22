@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="table_style.css">
+<head>
+
+</head>
+<body>
+    <script>
+    var table = "<table><thead><tr><th>STT</th><th>Name</th><th>Age</th><th>Basic</th><th>Workday</th><th>Amount</th></tr></thead>";
+        class Employee
+        {
+            constructor(name,age,basic,workday,amount)
+            {
+                this.name = name;
+                this.age = age;
+                this.basic = basic;
+                this.workday = workday;
+                this.amount = amount;
+            }
+        }
+    var employees = [];
+    for(let i=1;i<=3;i++)
+    {
+        let name = prompt("Enter name of Employee ["+i+"]:");
+        let age = prompt("Enter age of Employee ["+i+"]:");
+        let basic = prompt("Enter basic of Employee ["+i+"]:");
+        let workday = prompt("Enter workday of Employee ["+i+"]:");
+        let amount = prompt("Enter amount of Employee ["+i+"]:");
+
+        let employee = new Employee(name,age,basic,workday,amount);
+        employees.push(employee);
+    }
+    document.write("List of Employees:"+"<br>");
+    document.write(table);
+    document.write("<tbody>");
+    for(let i=0;i<3;i++)
+    {
+        //document.write("Employee ",i+1,":"+"<br>");
+        document.write("<tr><td>",i+1,"</td>");
+        document.write("<td>",employees[i].name,"</td>");
+        document.write("<td>",employees[i].age,"</td>");
+        document.write("<td>",employees[i].basic,"</td>");
+        document.write("<td>",employees[i].workday,"</td>");
+        document.write("<td>",employees[i].amount,"</td></tr>");
+    }
+    document.write("</tbody>");
+    document.write("</table>");
+    </script>
+</body>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<script>
+class Employee {
+  constructor(name, age, salary) {
+    this.name = name;
+    this.age = age;
+    this.salary = salary;
+  }
+}
+
+let employees = [];
+
+for (let i = 1; i <= 3; i++) {
+  let name = prompt(`Enter name of employee ${i}:`);
+  let age = prompt(`Enter age of employee ${i}:`);
+  let salary = prompt(`Enter salary of employee ${i}:`);
+  
+  let employee = new Employee(name, age, salary);
+  employees.push(employee);
+}
+
+document.write("List of employees:");
+employees.forEach((employee, index) => {
+  document.write(`Employee ${index + 1}: Name: ${employee.name}, Age: ${employee.age}, Salary: ${employee.salary}`);
+});
+</script>

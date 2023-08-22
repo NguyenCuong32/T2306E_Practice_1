@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <script>
+        function employ_info(name,age,exp)
+        {
+            this.name = name;
+            this.age = age;
+            this.exp = exp;
+        }
+        TungInfo = new employ_info("Tung",36,"12 years");
+        TungInfo2 = new employ_info("Tung2",36,"12 years");
+        var objects = [employ_info];
+        objects.push(TungInfo);
+        objects.push(TungInfo2);
+
+        objects.forEach(element => {
+            console.log(element.name);
+        });
+    </script>
+</body>
