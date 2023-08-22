@@ -1,0 +1,143 @@
+.vitri{
+   right: 100px;
+   
+}
+ 
+     .flex-container{
+        display: flex;
+        width: 1500px;
+   
+  
+       }
+     #flex-item1{
+        background-color: rgb(213 80 80);
+        text-align: center;
+        font-size:19px;
+        margin:10px;
+        width: 100px;
+        line-height:2.2;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+              
+          
+     }
+     #flex-item2{
+        background-color: rgb(202, 120, 120);
+        text-align: center;
+        font-size:19px;
+        margin:10px;
+        width: 100px;
+        line-height:2.2;
+        border-radius:10px;
+          
+     }
+     #flex-item3{
+        background-color: rgb(213 189 189);
+        text-align: center;
+        font-size:19px;
+        margin:10px;
+        width:  100px;
+        line-height:2.2;
+        border-radius:10px;
+          
+     }
+     #flex-item4{
+        background-color:  rgb(204, 100, 3);
+        margin:10px;
+        width:  100px;
+        line-height:2.2;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+           
+          
+     }
+     #flex-item5{
+        background-color:  rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size:19px;
+        margin:10px;
+        width:  200px;
+        line-height:2.2;
+        font-weight: bold;
+        
+                   
+     }
+     #flex-item6{
+      background-color:  rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      text-align: right;
+      font-size:19px;
+      margin:10px;
+      width:  1200px;
+      line-height:2.2;
+    
+      
+                 
+   }
+     h1{
+        text-align: center;
+        color: blue;
+     }
+        .flex-container2{
+            display: flex;
+            width: 1500px;
+            flex-wrap: wrap;
+            font-size: 25px;
+             }
+           
+           #flex2-item1{
+               background-color: white;
+               padding: 10px;
+               width: 450px;
+               margin: 10px;
+                       
+             
+            }
+            #flex2-item2{
+               background-color: white;
+               padding: 10px;
+               width: 700px;
+               margin: 10px;
+                       
+             
+            }
+
+  .flex-container3{
+    display: flex;  
+    background-color: white; 
+    width: 1500px;
+    
+      
+   }
+   #flex3-item1{
+      background-color: white;
+      text-align: left;
+      width: 1250px;
+      padding: 10px;
+           
+           
+   }
+   #flex3-item2{
+       background-color: rgb(79, 219, 184);
+       padding: 10px;
+       width: 80px;
+       font-weight: bold;
+       
+   
+    }
+    #flex3-item3{
+        background-color: rgb(77, 61, 223);
+        padding: 10px;
+        width: 80px;
+        font-weight: bold;
+     }  
+
+
+     
+ 
+
+
+
+    
+    
