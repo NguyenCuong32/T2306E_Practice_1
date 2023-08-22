@@ -1,0 +1,174 @@
+.t{
+   background-color: white;
+   display: flex;
+   justify-content: center;
+}
+.t>div{
+    margin: 2px;
+    text-align: right;
+    line-height: 30px;
+    width: 75px;
+}
+ #t1{
+   background-color: chocolate;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   width: 100px;
+   margin-right: 30px;
+   margin-bottom: 10px;
+   height: 40px; 
+}
+
+.home{
+    display: flex;
+    justify-content: left;
+}   
+.home > div{
+    border-bottom: 5px gray solid;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {color: aqua;}
+.t4{
+    text-align: center;
+    color: rgb(77, 112, 209);
+    text-transform: uppercase;
+}
+.line1{
+    display: flex;
+}
+.line1>div{
+    background-color: grey;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 300px;
+    margin-right: 50px;
+}
+.line2{
+    display: flex;
+}
+.line2>div{
+    max-width: 300px;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.line3{
+    display: flex;
+}
+.line3>div{
+    max-width: 300px;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+footer>address{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer> div{
+    border: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.pagehome{
+    display: flex;
+    justify-content: space-around;
+}
+.pagehome>div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    
+}
+.pagehome1{
+    display: flex;
+    justify-content: space-around;
+}
+.pagehome1>dl{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+
+}
+.pagehome1>dl>dt{
+    text-transform: uppercase;
+    margin-top: -20px;
+    padding-bottom: 20px;
+
+}
+.pagehome1>dl>dd{
+    margin-left: 0px;
+
+}
+.pagehome2{
+    display: flex;
+    justify-content: space-around;
+}
+.pagehome2>div{
+    background-color: rgb(151, 124, 88);
+    width: 250px;
+    height: 250px;
+
+}
+.pagehome2>div>div{
+    background-color: gray;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.pageclender{
+    display: flex;
+    justify-content: space-around;
+}
+.pageclender>div{
+    background-color: rgb(124, 99, 66);
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    
+}
+.pageclender>dl{
+    width: 250px;
+    height: 250px;
+}
+.pageclender>dl>dt{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.pageclender>dl>dd>span{
+    color: rgb(221, 58, 58);
+}
+.pageclender>dl>dd{
+    text-align: left;
+    margin-top: 20px;
+}
