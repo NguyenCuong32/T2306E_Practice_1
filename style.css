@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#wraper header {
+    display: flex;
+}
+
+#wraper header .a {
+    background-color: burlywood;
+}
+
+#wraper{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+header .a{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px 20px;
+
+}
+header{
+    display: flex;
+    margin-bottom: 120px;
+}
+header h3{
+    margin-left: 30px;
+    font-size: 30px;
+}
+header p{
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    float: right;
+    text-align: end;
+}
+
+.box{
+    list-style-type: none;
+    height: 100px;
+    display: flex;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.box-nav{
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#head{
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+
+}
+#main_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 25px;
+}
+
+#main_content_60_40{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-size: 25px;
+}
+
+#content{
+    flex-basis: 50%;
+    margin-top: 50px;
+}
+
+#content ul h3 {
+    padding-inline-start: 0;
+}
+
+#sidebar{
+    background-color: burlywood;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    float:right;
+    padding: 40px;
+
+}
+h4{
+    background-color: rgb(3, 75, 51);
+    width: 100px;
+    height: 40px;
+    float: right;
+}
+#footer{
+    margin-top: 40px;
+}

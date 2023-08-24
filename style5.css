@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#wraper header {
+    display: flex;
+}
+
+#wraper header .a {
+    background-color: burlywood;
+}
+
+#wraper{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+header .a{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px 20px;
+
+}
+header{
+    display: flex;
+    margin-bottom: 120px;
+}
+header h3{
+    margin-left: 30px;
+    font-size: 30px;
+}
+header p{
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    float: right;
+    text-align: end;
+}
+
+.box{
+    list-style-type: none;
+    height: 100px;
+    display: flex;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+.box-nav{
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#head{
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+    margin-bottom: 70px;
+}
+
+.thpt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.thpt-box {
+    grid-column: span 1;
+    aspect-ratio: 1 / 1;
+    width: auto;
+    margin: 0 20px;
+}
+
+.thpt-text-box-title {
+    grid-column: span 1;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0;
+
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.thpt-text-box-description {
+    grid-column: span 1;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+
+    font-size: large;
+    word-wrap: break-word;
+}
+
+.circle {
+    height: 80%;
+    width: 80%;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 10%
+}
+
+.last-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.text-box-description {
+    grid-column: span 2;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+
+    font-size: large;
+    word-wrap: break-word;
+}
+
+.last-grid-box {
+    grid-column: span 2;
+    aspect-ratio: 1 / 1;
+    width: auto;
+    margin: 0 20px;
+
+    align-items: center;
+    vertical-align: middle;
+}
+
+h4{
+    background-color: rgb(3, 75, 51);
+    width: 100px;
+    height: 40px;
+    float: right;
+}
+#footer{
+    margin-top: 40px;
+}
