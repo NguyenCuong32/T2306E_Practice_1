@@ -1,0 +1,121 @@
+body{
+    width: 1050px;
+    height: auto;
+ 
+    background-color: bisque;
+    margin: 0 auto;
+  
+}
+header{
+    margin-top:20px;
+display: flex;
+margin-bottom: 20px;
+width: auto;
+position: relative;
+}
+#img{
+width:  60px;
+height: 30px;
+background-color: chocolate;
+}
+.head__name{
+    font-weight: 800;
+    margin-left: 30px;
+}
+.head__link{
+    position: absolute;
+     right: 60px;
+     font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(38, 83, 33);
+    color: white;
+    border-radius: 5px;
+}
+#test_shedule{
+    margin: 40px 0;
+    text-align: center;
+    color: blue;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+
+}
+.program-name{
+    color: rgb(46, 4, 46);
+    margin-left: 20px;
+    font-weight: 800;
+}
+.program-C_list{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+    justify-content: center;
+    
+}
+.program_list-define{
+    background-color: cadetblue;
+    border-radius: 10px;
+}.program_list-SQL{
+    background-color: white;
+    border-radius: 10px;
+}
+  
+.list_img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    text-align: center;
+    
+}
+
+#text-who {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(158, 80, 12);
+}
+img{
+  width: 300px;
+  height:auto;
+ 
+}
+#lichthi{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: blueviolet;
+}
+dl{
+    text-align: left;
+    margin-left: 70px ;
+    font-weight: bold;
+}
+dt{
+    text-align: center;
+    font-weight: bold;
+    margin-right :45px;
+
+}
+
+.list_img-text{
+    display: block;
+    width: 250px;
+    text-align: center;
+}
+.loiich{
+    text-align: center;
+    margin: 60px 0 30px;
+    font-size: 30px;
+    color: brown ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 60px 0;
+}
