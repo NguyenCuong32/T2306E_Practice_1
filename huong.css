@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.box{
+    height: 80px;
+    line-height: 70px;
+    padding-top: 10px;
+    display: flex;
+    width: 600px;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;   
+}
+header .a{
+    background-color: burlywood;
+    width: 180px;
+    height: 70px;
+    border-radius: 20px 20px;   
+}
+header p{
+    margin-left: 1200px;
+}
+h2
+{
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+}
