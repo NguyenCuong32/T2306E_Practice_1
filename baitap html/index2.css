@@ -1,0 +1,137 @@
+header {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+}
+
+header .grid-content-3 {
+    text-align: end;
+}
+
+.content-1 {
+    width: 30%;
+    height: 150%;
+    background-color: rgb(126, 40, 67);
+    border-radius: 20px;
+}
+
+nav {
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: 10% 10% 80%;
+    justify-content: start;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+
+.content-1 {
+    background-color: rgb(35, 139, 85);
+}
+
+.content-2 {
+    background-color: rgb(106, 177, 35);
+}
+
+.content-3 {
+    background-color: rgb(55, 40, 141);
+}
+
+nav>div {
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.text-1 {
+    text-align: center;
+    color: rgb(181, 26, 150);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#content4 img {
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+#content4 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.figcaption-1 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.figcaption-1a {
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.text-2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.content5 .square {
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content5 .circle {
+    background-color: lightpink;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.content5 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.anh-1,
+.anh-2,
+.anh-3,
+.anh-4,
+.anh-5
+{
+    margin: 90px;
+    text-align: center;
+}
+
+.content5 p {
+    width: 400px;
+    font-size: 30px;
+}
+footer{
+    margin-top: 10%;
+    display: flex;
+}
+address{
+    font-size: 20px;
+}
+aside img{
+    width: 100px;
+}
+aside{
+    margin-left: 75%;
+}
