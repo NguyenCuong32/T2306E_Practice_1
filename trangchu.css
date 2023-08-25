@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", sans-serif;
+
+}
 .content1_ul {
-    width: 600px;
+    
     height: 50px;
     display: flex;
     position: relative;
@@ -15,10 +22,13 @@
 }
 
 .ul_content2 {
-    display: flex;
+    display: flex; 
 
 }
-
+.li_content2 a {
+    text-decoration: none;
+    color: #fff;
+}
 .li_content2 {
 
     list-style: none;
@@ -26,35 +36,57 @@
     width: 150px;
     height: 50px;
     border-style: outset;
-    margin: 0 20px;
+    margin: 25px 20px;
     text-align: center;
     line-height: 50px;
     background-color: red;
     border-radius: 8px;
 }
-
-.li_content2 a {
-    text-decoration: none;
-    color: #fff;
-}
-h3{
-    font-size: 30px;
+/*header*/
+.h3_caption{
     text-transform: uppercase;
     text-align: center;
+    margin: 50px 0;
+    color: blue;
 }
-.content{
+.ul_caption{
+        display: flex;
+        list-style: none;
+}
+.li_caption>img{
+    width: 200px;
+    height: 200px;
+}
+.li_caption>h4{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.li_caption{
+    width: 200px;
+    height: 300px;
+    margin: 0 150px;
+}
+.ul_caption2{
     display: flex;
+    list-style: none;flex-wrap: wrap;
+}
+.li_caption2>img{
+width: 200px;
+height: 200px;
+}
+.li_caption2>p{
     
+margin: 20px 0;
 }
-.content4{
-   margin: 15px 50px; 
+.li_caption2{
+width: 200px;
+height: 300px;
+margin: 50px 150px;
+
 }
-html{
-    margin: 0 200px;
-}
-.container{
-    margin: 0 100px;
-}
+
+
+/* footer */
 .content_footer{
     margin: 0 200px;
     display: flex;
@@ -64,6 +96,8 @@ html{
     position: absolute;
     right: 0;
     display: flex;
+
+    
 }
 .footer2_content{
     /* margin: 0 10px; */
