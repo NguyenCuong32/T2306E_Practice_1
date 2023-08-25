@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wrappe{
+    max-width: 880px;
+    margin: auto;
+}
+    .container{
+    display: grid;
+    grid-template-columns:150px 300px 750px  ;
+}
+.fpt1{
+    margin: 8px;
+    padding: 4px;
+    
+}
+.tab1{
+    display: grid;
+    grid-template-columns:160px 160px 160px  ;
+    margin-top: 10px; 
+}
+.tab{
+    margin: 3px;
+    padding: 12px;
+    background-color:indianred ;
+    border-radius: 9px 9px 9px 9px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 17.5px;
+    color: white;
+}
+.square{
+    display: grid ;
+    grid-template-columns: 290px 290px 300px;
+}
+.square1{
+    margin: 10px;
+    padding: 100px;
+    background-color:rgb(141, 108, 108);
+    margin-top: 50px;
+}
+.cmt{
+    display: grid;
+    grid-template-columns: 295px 300px 275px;
+}
+.cmt1{
+    margin-left: 90px;
+    margin-bottom: 10px; 
+   
+}
+.last-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.text-box-description {
+    grid-column: span 2;
+    width: auto;
+    text-align: center;
+    margin: 20px;
+
+    font-size: large;
+    word-wrap: break-word;
+}
+
+.last-grid-box {
+    grid-column: span 2;
+    aspect-ratio: 1 / 1;
+    width: auto;
+    margin: 0 20px;
+
+    align-items: center;
+    vertical-align: middle;
+}
+.circle {
+    height: 80%;
+    width: 80%;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 10%
+}
+.DC{
+    display:grid;
+    grid-template-columns: 500px 190px 190px ;
+}
+.DC1{
+    margin: 0px;
+    padding: 10px;
+}
+</style>
+<body>
+    <div class="wrappe">    
+    <div class="container">
+    <div style="color: orange;background-color: orange;border-radius: 0px 10px 10px 0px;margin-left: 3.5px;">.</div>
+    <div class="fpt1" style="margin-left: 50px;"><strong>FPT-APTECH-T2306E</strong></div>
+    <div class="fpt1" style="font-size: 15px;margin-left:300px;"><i>Wellcome everyone.</i></div>
+</div>
+<div class="tab1">
+    <div class="tab">Trang chủ</div>
+    <div class="tab">Môn học</div>
+    <div class="tab">Lịch thi</div>
+</div>
+<div style="color: rgb(37, 72, 228);text-align: center;margin-top: 60px;font-size: 21px;"><strong>NHỮNG AI NÊN THAM GIA KHÓA HỌC LẬP TRÌNH TẠI FPT APTECH ?</strong></div>
+<div class="square">
+    <div class="square1" style="color: rgb(141, 108, 108);"></div>
+    <div class="square1" style="color: rgb(37, 72, 228);background-color: rgb(94, 122, 248);"></div>
+    <div class="square1" style="color: rgb(196, 130, 8);background-color: rgb(196, 127, 1);"></div>
+</div>
+<div class="cmt">
+    <div class="cmt1"><strong>HỌC SINH THPT</strong></div>
+    <div class="cmt1"><strong>HỌC SINH THPT</strong></div>
+    <div class="cmt1"><strong>HỌC SINH THPT</strong></div>
+    <div class="cmt1" style="margin-left: 18px;">Là người yêu công nghệ thích khám phá công nghệ ...</div>
+    <div class="cmt1" style="margin-left: 24px;">Là người yêu công nghệ thích khám phá công nghệ ...</div>
+    <div class="cmt1" style="margin-left: 29px;">Là người yêu công nghệ thích khám phá công nghệ ...</div>
+</div>
+<div style="color: rgb(37, 72, 228);text-align: center;margin-top: 60px;font-size: 21px;margin-bottom: 30px;"><strong>5 LỢI ÍCH TO LỚN KHI HỌC LẬP TRÌNH TẠI FPT APTECH</strong></div>
+<div>
+    <div class="last-grid">
+        <span class="last-grid-box" style="background-color: rgb(158, 21, 16);"><span class="circle"></span></span>
+        <span class="last-grid-box" style="background-color: rgb(157, 155, 152);"><span class="circle"></span></span>
+        <span class="last-grid-box" style="background-color: rgb(157, 155, 152);"><span class="circle"></span></span>
+
+        <span class="text-box-description">Là người yêu công nghệ thích khám phá công nghệ...</span>            
+        <span class="text-box-description">Là người yêu công nghệ thích khám phá công nghệ...</span>
+        <span class="text-box-description">Là người yêu công nghệ thích khám phá công nghệ...</span>
+
+        <span class="last-grid-box" style="background-color: rgb(157, 155, 152); grid-column-start: 2; grid-column-end: 4;"><span class="circle"></span></span>
+        <span class="last-grid-box" style="background-color: rgb(157, 155, 152); grid-column-start: 4; grid-column-end: 6;"><span class="circle"></span></span>
+
+        <span class="text-box-description" style="grid-column-start: 2; grid-column-end: 4;">Là người yêu công nghệ thích khám phá công nghệ...</span>            
+        <span class="text-box-description" style="grid-column-start: 4; grid-column-end: 6;">Là người yêu công nghệ thích khám phá công nghệ...</span>
+    </div>
+</div>
+<div class="DC">
+    <div class="DC1" style="font-size: 19px;"><strong>Địa chỉ:Số 8 Tôn Thất Thuyết.</strong></div>
+    <div class="DC1" style="font-size: 19px;background-color: rgb(27, 192, 137);text-align: center;"><strong>Facebook</strong></div>
+    <div class="DC1" style="font-size: 19px;background-color: rgb(64, 96, 156);text-align: center;"><strong>Zalo</strong></div>
+</div>
+</div>
+</body>
+</html>
