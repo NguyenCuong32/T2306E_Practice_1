@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer-a {
+    display: flex;
+}
+
+.p-fb {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(9, 112, 112);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.p-zalo {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
