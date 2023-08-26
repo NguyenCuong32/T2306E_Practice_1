@@ -1,0 +1,372 @@
+.app {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: rgb(246, 236, 241);
+
+}
+
+header {
+    display: flex;
+    height: 40px;
+
+
+}
+
+.lefheader {
+    width: 120px;
+    line-height: 400px;
+    background-color: #eb661f;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.lefheader1 {
+    margin-left: 45px;
+    margin-top: -8px;
+
+
+}
+
+.righeader {
+    margin-left: 470px;
+    line-height: 40px;
+}
+
+.menu {
+    display: flex;
+    /* list-style: none; bỏ kiểu gạch chân */
+    text-align: center;
+    /*chữ ra giữa */
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.menu>a {
+    margin: 2px;
+    width: 120px;
+    line-height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+
+
+}
+
+.menu>a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu>a:hover {
+    /* HOVE LICH THI*/
+    background-color: rgb(20, 26, 207);
+    color: red;
+}
+
+.menu>.tc {
+    background-color: brown;
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    margin-left: 0px;
+}
+
+.menu>.mh {
+    background-color: rgb(218, 73, 73);
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+
+}
+
+.menu>.lt {
+    background-color: rgb(157, 155, 152);
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    /*tạo bóng khun*/
+}
+
+.tieude {
+    color: blue;
+    text-align: center;
+
+    margin-top: 35px;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    /* tràn viền sang 2 bên*/
+    margin-top: 65px;
+    flex-grow: 1;
+
+
+}
+
+.html5 {
+    margin-right: auto;
+
+
+}
+
+div>img {
+    width: 300px;
+    height: 180px;
+}
+
+.tenmon {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(6, 65, 240);
+
+}
+
+div>ul {
+    font-size: 20px;
+}
+
+.css {
+    margin-right: auto;
+}
+
+.ngaygio {
+    color: red;
+}
+
+article>div>.lichthi>li {
+    list-style: none;
+}
+
+
+.footerlt {
+    display: flex;
+    margin-top: 200px;
+}
+
+.diachi {
+    /* background-color: white; */
+    flex-grow: 200;
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.facebook {
+    background-color: aquamarine;
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    border-radius: 10px;
+    width: 150px;
+    flex-grow: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.zalo {
+    background-color: royalblue;
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    border-radius: 10px;
+    width: 150px;
+    flex-grow: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+
+/*  MÔN HỌC - MÔN HỌC - MÔN HỌC - MÔN HỌC - MÔN HỌC- MÔN HỌC-  */
+
+
+.tieudemon {
+    margin-left: 50px;
+    margin-right: 40px;
+    font-style:bold;
+}
+
+.monhoc {
+    display: flex;
+    font-size: 20px;
+}
+
+.monhoc>.ulc  {
+    flex-basis: 37%;
+}
+.monhoc>.pc {
+    flex-basis: 63%;
+    background-color:rgb(203, 173, 173);
+    border-radius: 10px 10px ;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.ulhtml {
+    flex-basis: 60%;
+}
+
+.monhoc>.phtml {
+    flex-basis: auto;
+    background-color:rgb(203, 173, 173);
+    border-radius: 10px 10px ;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.ulmssql {
+    flex-basis: 37%;
+}
+
+.monhoc>.pmssql {
+    flex-basis: 63%;
+    background-color:rgb(203, 173, 173);
+    border-radius: 10px 10px ;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* TRANG CHỦ - TRANG CHỦ - TRANG CHỦ - TRANG CHỦ - TRANG CHỦ -*/
+
+
+.noidungtc {
+    display: flex;
+    /* tràn viền sang 2 bên*/
+    margin-top: 55px;
+
+}
+
+.bantre {
+    margin-left: 30px;
+
+
+}
+.dilam{
+    margin: auto;
+}
+.lamnghethuat{
+    margin-right: auto;
+}
+.noidungtc> div>img {
+    width: 300px;
+    height: 180px;
+}
+.doituong {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+    color: red;
+
+}
+.damme {
+    font-size: 20px;
+    width: 300px;
+}
+
+.dilam {
+    margin-right: auto;
+}
+.tieudetc {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.tieudetc1 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.tieudetc2 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+    
+.loiich{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 55px;
+}
+.ptich {
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}
+.loiich2 {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.loiich_4> img{
+    width: 300px;
+    height: 250px;
+}
+
+.loiich_5> img{
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
