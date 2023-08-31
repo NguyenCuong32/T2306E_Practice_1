@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div id="box" class="box"></div>
+</div>
+
+<script>
+var box = document.getElementById("box");
+box.addEventListener("click", moveBox);
+
+function moveBox() {
+  var x = Math.floor(Math.random() * 300); // Lấy ngẫu nhiên giá trị từ 0 đến 300
+  var y = Math.floor(Math.random() * 200); // Lấy ngẫu nhiên giá trị từ 0 đến 200
+
+  box.style.top = y + "px";
+  box.style.left = x + "px";
+}
+</script>
+
+</body>
+</html>
